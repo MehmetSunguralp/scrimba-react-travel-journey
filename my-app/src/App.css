@@ -1,0 +1,74 @@
+header {
+	height: 55px;
+	background-color: #f55a5a;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	margin-left: 8px;
+}
+
+.card-container {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	width: 470px;
+	height: 168px;
+	margin: 0 auto;
+	padding: 40px;
+	position: relative;
+}
+
+.card-img {
+	width: 125px;
+	height: 168px;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+.location {
+	font-size: 10px;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	margin: 0 4px;
+}
+
+.google-maps {
+	font-size: 10px;
+	text-decoration: none;
+	color: #918e9b;
+	border-bottom: solid 1px;
+}
+
+.location-title {
+	font-size: 25px;
+	font-weight: 700;
+	color: #2b283a;
+	margin: 4px auto;
+}
+
+.date {
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.description {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.divider {
+	position: absolute;
+	bottom: 0;
+	width: 478px;
+	height: 1px;
+	background-color: lightgrey;
+}
